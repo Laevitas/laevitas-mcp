@@ -1,6 +1,5 @@
 """
 Laevitas MCP Server - Generated from API Catalog
-This server provides access to the Laevitas API with dynamic parameter validation.
 """
 
 import os
