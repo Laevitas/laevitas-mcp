@@ -1,5 +1,5 @@
 """
-Laevitas MCP Server - Generated from API Catalog
+Laevitas MCP Server
 """
 
 import os
