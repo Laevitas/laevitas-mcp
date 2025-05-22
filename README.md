@@ -49,10 +49,11 @@ LAEVITAS_API_KEY<YOUR_LAEVITAS_API_KEY>
 
 ## Running the Servers
 
+The MCP server automatically registers all endpoints listed in `laevitas_catalog.json`.
 You can run the server with:
 
 ```bash
-uv run laevitas_server.py
+uv run mcp_server/main.py
 ```
 
 ## Configuring Claude Desktop
@@ -70,7 +71,7 @@ Example configuration:
             "command": "ssh",
             "args": [
                 "user@your-host",
-                "cd /path/to/laevitas-mcp && /path/to/uv run laevitas_server.py"
+                "cd /path/to/laevitas-mcp && /path/to/uv run mcp_server/main.py"
             ]
         }
     }
